@@ -40,12 +40,12 @@ function deletar(registro){
 
     Swal.fire({
         title: 'voce tem certeza?',
-        text: "voce nao podera reveter isto!",
+        text: "voce não podera reverter isto!",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'sim,quero apag!'
+        confirmButtonText: 'sim,quero apagar!'
       }).then((result) => {
         if (result.isConfirmed) {
             registro.remove();
